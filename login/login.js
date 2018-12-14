@@ -1,3 +1,4 @@
+
 // login/login.js
 Page({
 
@@ -65,8 +66,21 @@ Page({
   },
 
   logoin: function () {
-    wx.redirectTo({
-      url: '../test/test',
+    // wx.redirectTo({
+    //   url: '../test/test',
+    // })
+    var that = this;
+    wx.request({
+      url: 'http://127.0.0.1/api/login?mail=blue@ascendantcn.com&password=1234567',
+      success: function(res){
+        wx.setStorageSync("sessionid", res.header["Set-Cookie"]);
+        console.log(res);
+        console.log(res.header["Set-Cookie"]);
+        console.log(wx.setStorageSync("sessionid", res.header["Set-Cookie"]));
+        wx.redirectTo({
+          url: '../test/test',
+        });
+      }
     })
   }
 })

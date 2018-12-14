@@ -12,7 +12,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(wx.getStorageSync("sessionid"));
+    wx.request({
+      url: "http://127.0.0.1/sysmanage/portAutocompleteJson?PortNameEN2_input=s&showname_input=NameEN&valuename_input=PortID",
+      method: 'get',
+      data: { 'showname_input': 'NameEN', 'valuename_input':'PortID'},
+      header: {
+        "Set-Cookie": "JSESSIONID=6B86FE21E2D80FE560AAE2F1EF1253BF"},
+      success: function(res){
+        console.log(res)
+      }
+    })
   },
 
   /**
