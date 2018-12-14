@@ -1,0 +1,16 @@
+<!--login/login.wxml-->
+<view class='container'>
+  <view>
+    <image src='http://www.56oversea.com/image/56oversea.svg'></image>
+  </view>
+
+  <view class='modal-content'>
+    <text>LOG IN TO YOUR</text><text>ACCOUNT</text>
+    <input placeholder='Your email' placeholder-class='plasty'></input>
+    <input placeholder='Password' placeholder-class='plasty' password='true'></input>
+    <button bindtap='logoin'>Login in</button>
+  </view>
+
+
+
+</view>

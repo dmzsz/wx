@@ -1,0 +1,49 @@
+/* login/login.wxss */
+page {
+  height: 100%;
+  background-image: url("http://www.56oversea.com/image/wx-login.jpg");
+  background-repeat: round;
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  color: white;
+}
+
+.modal-content text{
+  display: block;
+  padding-top:20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+
+}
+.modal-content input{
+  border-bottom: 2px solid white;    
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  width: 75%;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+.modal-content button{   
+  margin-top:  20px;
+  margin-bottom: 20px;
+  width: 65%;
+  background-color: #007bff;
+}
+
+.plasty{
+  color: rgba(27, 0, 180, 0.5);
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}

@@ -1,0 +1,62 @@
+<!--test/test.wxml-->
+<view class='container'>
+  <view class='logo'>
+    <image src='http://www.56oversea.com/image/56oversea.svg'></image>
+  </view>
+  <view class='search'>
+    <view class='left'>
+      <input placeholder='Search Port Name'></input>
+      <input placeholder='Agent Name'></input>
+      <input placeholder='Country'></input>
+    </view>
+    <view class='right'>
+      <button type='warn' bindtap='index'>Search</button>
+    </view>
+  </view>
+  <view class='down'>
+    <view class='agent'>
+      <view class='aleft'>
+        <image mode='aspectFit' src='http://www.56oversea.com/image/1.jpg'></image>
+      </view>
+      <view class='aright'>
+        <text class='name'>Miss ONYINYE</text>
+        <text class='com'>HSC LOGISTICS SOLUTIONS LTD</text>
+        <text class='porttitle'>Port</text>
+        <text class='port'>DUBAI(UNITED ARAB EMIRAT)</text>
+      </view>
+    </view>
+    <view class='agent'>
+      <view class='aleft'>
+        <image mode='aspectFit' src='http://www.56oversea.com/image/2.jpg'></image>
+      </view>
+      <view class='aright'>
+        <text class='name'>Mr. ELESAR A. ZAYED</text>
+        <text class='com'>AFCO - DUBAI (AL FADHIL CARGO & FORWARDING CO.)</text>
+        <text class='porttitle'>Port</text>
+        <text class='port'>DUBAI(UNITED ARAB EMIRAT)</text>
+      </view>
+    </view>
+    <view class='agent'>
+      <view class='aleft'>
+        <image mode='aspectFit' src='http://www.56oversea.com/image/3.jpg'></image>
+      </view>
+      <view class='aright'>
+        <text class='name'>Mr. JASON KHOR</text>
+        <text class='com'>MINE LOGISTICS SDN BHD</text>
+        <text class='porttitle'>Port</text>
+        <text class='port'>PORT KLANG WEST PORT(MALAYSIA)</text>
+      </view>
+    </view>
+    <view class='agent'>
+      <view class='aleft'>
+        <image mode='aspectFit' src='http://www.56oversea.com/image/avatar.png'></image>
+      </view>
+      <view class='aright'>
+        <text class='name'>Miss JOAN JOAN</text>
+        <text class='com'>TRANS WEST SHIPPING SDN. BHD.</text>
+        <text class='porttitle'>Port</text>
+        <text class='port'>PORT KLANG WEST PORT(MALAYSIA)</text>
+      </view>
+    </view>
+  </view>
+</view>
